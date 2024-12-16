@@ -1,0 +1,42 @@
+# ? valgrind
+vgcore.*
+
+# ? obj
+*.o
+
+# ? lib
+*.a
+*.so
+
+# ? executable
+*.out
+unit_tests
+my_torch_analyzer
+my_torch_generator
+
+# ? coverage
+*.gcda
+*.gcno
+*.gcov
+
+# ? tmp
+*~
+\#*#
+
+# ? vscode
+.vscode/
+.cache/
+
+# ? compilation database
+compile_commands.json
+compile_commands.events.json
+
+# ? other
+coding-style-reports.log
+config.ini
+build/
+datasets/
+*.csv
+*.nn
+*.conf
+*.txt

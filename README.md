@@ -139,7 +139,7 @@ The third approach that we have tested is the learning rate decay with momentum.
 
 #### Here is a visual representation of how the momentum algorithm gets out of a local minimum:
 
-![image](https://github.com/user-attachments/assets/2da24122-4d6d-424f-bb69-ea6fe90784d3)
+![image](https://github.com/user-attachments/assets/4ec21eb4-80cc-45f1-82fc-de9d3a11efdb)
 
 ## Neural Network Layout
 

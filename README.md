@@ -82,7 +82,7 @@ In this mode, the program reads a neural network from a file and uses it to pred
 
 In this mode, the outcome is directly printed to the standard output without any extra information.
 
-![image](https://github.com/user-attachments/assets/6e7051ed-09e5-46a2-8825-40918f8efa66)
+![image](https://github.com/user-attachments/assets/ed3b4cc6-f8af-4182-bb4b-e2a01b6800a8)
 
 ## Color mode
 
@@ -93,7 +93,7 @@ Here are the 3 levels of precision:
 - Level 2: Predict Checkmate, Check, Statemate or Nothing.
 - Level 3: Predict outcome with color.
 
-![image](https://github.com/user-attachments/assets/58bdd59c-0e4e-4578-997a-86dfea57d166)
+![image](https://github.com/user-attachments/assets/ad7ca269-ef2b-425d-bd4f-2df56924ab32)
 
 # Train mode
 

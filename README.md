@@ -107,11 +107,11 @@ In this mode, multiple neural networks can be given as arguments. The program wi
 The evaluation result will be used to fine-tune the learning rate of the different neural networks.   
 After each epoch, the program will print the current level of progress of the training and the success rate of the neural network prediction on the evaluation set. It will also print the accuracy rate of the neural network and the current learning rate.
 
-![image](https://github.com/user-attachments/assets/47f78a3f-62f8-4106-828d-449ffa9ac2ad)
+![image](https://github.com/user-attachments/assets/ff420899-7605-4d15-b90d-2efdcaabf0eb)
 
 #### Here is a visual representation of the training process:
 
-![NeuralNetwork (1)](https://github.com/user-attachments/assets/d1935670-ff0a-4334-8bc9-f0ec00e004ee)
+![image](https://github.com/user-attachments/assets/54eddf54-f583-416d-9656-4211e87fafe2)
 
 # Activation function
 
@@ -121,7 +121,7 @@ We have tested the Relu activation function but we have gotten too many dying ne
 
 #### Here is a visual representation of the activation functions we have tested:
 
-![395589646-c0d639da-9914-44e1-9b30-c4ecafa1594b](https://github.com/user-attachments/assets/1b671bf1-6551-4a9b-936b-28a007f3d9b2)
+![image](https://github.com/user-attachments/assets/ab2339aa-5bbd-4bc8-928b-020e3610a373)
 
 # Hyperparameter optimisation
 ## Learning Rate
@@ -135,11 +135,11 @@ The third approach that we have tested is the learning rate decay with momentum.
 
 #### Here is a visual representation of the momentum algorithm:
 
-![6fd62253592b42795c48dc570a17579c](https://github.com/user-attachments/assets/d3b26a57-cf98-4d22-8cf8-6f28f0893d2b)
+![image](https://github.com/user-attachments/assets/e770b7df-7cf3-4a4a-858c-56e6ae8cd78a)
 
 #### Here is a visual representation of how the momentum algorithm gets out of a local minimum:
 
-![sgd_with_momentum2](https://github.com/user-attachments/assets/e7694504-49ec-4cac-bd72-13b830954cb8)
+![image](https://github.com/user-attachments/assets/2da24122-4d6d-424f-bb69-ea6fe90784d3)
 
 ## Neural Network Layout
 
@@ -150,7 +150,7 @@ We have defined the maximum number of neurons per layer as the smallest power of
 
 #### Here is the neural network layout with the best success rate that we have found:
 
-![NeuralNetwork](https://github.com/user-attachments/assets/1277e992-eb91-44ad-ab71-f970501c1eb9)
+![image](https://github.com/user-attachments/assets/a77f81e7-3dd7-440e-af9e-b4411d70a15d)
 
 # Training Method
 ## Splited Dataset
@@ -160,7 +160,7 @@ During the training, after each epoch, the neural network is evaluated on the ev
 
 #### Here is a representation of the split dataset:
 
-![NeuralNetwork (2)](https://github.com/user-attachments/assets/33af3320-1dbc-4fa6-9957-296050933074)
+![image](https://github.com/user-attachments/assets/2ea931b2-29f8-4398-a694-fb57ab72edd3)
 
 ## Cross-Validation
 
@@ -168,7 +168,7 @@ In this method, we split our dataset into multiple parts. At every epoch, we cha
 
 #### Here is a representation of the cross-validation training method:
 
-![NeuralNetwork (3)](https://github.com/user-attachments/assets/ec34d0fa-d966-409c-8f1b-bec908977f83)
+![image](https://github.com/user-attachments/assets/a9aaa57c-eced-4935-9924-4831d14c8a0f)
 
 # Benckmark
 
@@ -177,20 +177,20 @@ Every neural network layout has been trained on the same dataset and evaluated o
 
 #### Here is a classification of the neural network layout we have tested and the success rate of each of them:
 
-![Best Success Rate compared to Network layout](https://github.com/user-attachments/assets/bf7270ab-aaae-4d4c-b4c4-0d1d63f966eb)
+![image](https://github.com/user-attachments/assets/d9355b86-bda3-4728-840b-5b507d77cf17)
 
 We can see that the neural network layout that have the best results is the one with 2 hidden layers containing 256 and 64 neurons.
 
 #### Here is a graph of the success rate of the neural network over epochs:
 
-![Success Rate over Epoch](https://github.com/user-attachments/assets/98251614-ca10-4446-bb5f-377190c8709e)
+![image](https://github.com/user-attachments/assets/40293321-1062-4e62-bf3c-a8d98f3a651b)
 
 We can see that at first the neural network learns very fast and then the learning rate decreases and the neural network stabilizes and learns very slowly.
 With a bigger dataset, we could achieve even better results.
 
 #### Here is a graph of the learning rate over epochs:
 
-![Learning Rate over Epoch](https://github.com/user-attachments/assets/a5e20a17-6c62-45ad-b3d8-d4d7e789f27e)
+![image](https://github.com/user-attachments/assets/1b6af2e9-b8b8-458d-b8b0-7fd413877471)
 
 We can see that the learning rate oscillates over and over which prevents the neural network from being stuck in a local minimum.
 Also, the learning rate decreases over time which allows the neural network to stabilize and have more precise results.
@@ -202,7 +202,7 @@ Also, the given dataset that we used for evaluation is not representative of the
 
 #### Here is a representation of the dataset repartition over position:
 
-![Dataset repartition over position (2)](https://github.com/user-attachments/assets/58fdc183-e0a9-4ad3-b13c-975a1c950d69)
+![image](https://github.com/user-attachments/assets/121a9e26-a575-4d2c-b217-c5101e773a8a)
 
 The **AT Dataset** represents the proportion of positions tested to evaluate the neural network by the automated test.  
 The **Default Dataset** represents the proportion of positions tested to evaluate the neural network in all previous benchmarks.  
@@ -226,12 +226,12 @@ Total           | 64076489     | 100 %
 
 #### Here is the repartition delta between the given dataset and the real dataset:
 
-![Dataset repartition delta over Position](https://github.com/user-attachments/assets/c2133ff9-4435-4ab8-9e1c-40694488b3ec)
+![image](https://github.com/user-attachments/assets/3fe3e160-5f5b-441d-9ce7-fa3f3ad9104b)
 
 Here again we can clearly that the Stalemate is way too much represented in the given dataset, on this graph we can see that it's 221.95 times more represented in the given dataset than in the real dataset.
 
 #### Here is the success rate for each outcome of the neural network on default dataset:
 
-![Default Dataset Success Rate compared to Expected Success Rate (1)](https://github.com/user-attachments/assets/9e05ffe8-364c-45b4-a03a-cc0073860b92)
+![image](https://github.com/user-attachments/assets/0983a4d2-aba3-4361-a3db-2971cd8b480b)
 
 Here again we can see that the Stalemate is a big issue for the neural network and it's not able to predict it correctly.
